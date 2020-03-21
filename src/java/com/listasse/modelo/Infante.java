@@ -15,33 +15,6 @@ import javax.enterprise.context.Dependent;
 @Named(value = "infante")
 @Dependent
 public class Infante {
-     private String nombre;
-     private short codigo;
-     private short edad;
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getCodigo() {
-        return codigo;
-    }
-
-    public void setCodigo(String codigo) {
-        this.codigo = codigo;
-    }
-
-    public short getEdad() {
-        return edad;
-    }
-
-    public void setEdad(short edad) {
-        this.edad = edad;
-    }
      
     /**
      * Creates a new instance of Infante
